@@ -1,14 +1,11 @@
 # Phonegap project
 
-Install packages
+Install dependencies
 
     npm install
     bower install
-
-Install phonegap platforms
-
-    phonegap install ios
+    grunt install
 
 Run
 
-    phonegap run
+    phonegap run <platform>

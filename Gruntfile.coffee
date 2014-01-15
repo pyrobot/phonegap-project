@@ -9,5 +9,6 @@ module.exports = (grunt) ->
                 dest: 'build/<%= pkg.name %>.min.js'
 
     grunt.loadNpmTasks('grunt-contrib-uglify')
-    grunt.registerTask('default', ['uglify'])
+    grunt.registerTask('install', 'Installing things', -> grunt.log.writeln('done'))
+
 
